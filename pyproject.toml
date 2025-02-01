@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "projeto-as-preco-gasolina-br"
+version = "0.1.0"
+description = ""
+authors = ["Diego Morais <dolivmorais@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+dash = "^2.18.2"
+dash-bootstrap-components = "^1.7.1"
+pandas = "^2.2.3"
+dash-bootstrap-templates = "^2.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
