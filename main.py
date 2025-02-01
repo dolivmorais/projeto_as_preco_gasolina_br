@@ -85,7 +85,7 @@ app.layout = dbc.Container(children=[
                 dbc.CardBody([
                     dbc.Row([
                         dbc.Col([  
-                            html.Legend("DOM Analysis")
+                            html.Legend("DOM Analysis"),
                         ], sm=8),
                         dbc.Col([        
                             html.I(className='fa fa-filter', style={'font-size': '300%'})
@@ -94,7 +94,7 @@ app.layout = dbc.Container(children=[
                     dbc.Row([
                         dbc.Col([
                             ThemeSwitchAIO(aio_id="theme", themes=[url_theme1, url_theme2]),
-                            html.Legend("Asimov Academy")
+                            html.Legend("Tema")
                         ])
                     ], style={'margin-top': '10px'}),
                     dbc.Row([
